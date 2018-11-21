@@ -1,0 +1,108 @@
+@charset "utf-8";
+body{overflow: hidden;margin: 0;padding: 0;font-family: "Microsoft YaHei"}
+#indexDiv{width: 100%;}
+.winBorder{position: fixed;z-index: 4;border: 4px solid #FFF}
+img{width: 100%}
+ul li{list-style: none;}
+a{text-decoration: none;color: #fff;}
+#index{
+    background: url("../images/index_1.jpg")
+}
+.nav .logo{
+    float: left;
+}
+* { margin:0; padding:0;}
+
+ul li { list-style:none;}
+
+a { text-decoration:none;color: white;}
+.nav .right{
+    float: right;
+}
+.nav ul{
+    width: 840px;
+    height: 40px;
+    float: right;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+
+.nav {  border-right:none; overflow:hidden; }
+
+.nav ul li { float:left;}
+
+.nav ul li a { width:100px; height:40px; text-align:center; line-height:40px; display:block; color: white;}
+
+.nav ul>li>a:hover{border-bottom: solid 1px #FFF}
+
+.nav ul li ul { position:absolute;display: none;}
+
+.nav ul li ul li { float:none;}
+
+.nav ul li ul li a { border-right:none; }
+
+.nav ul li:hover ul{ display:block; } 
+
+
+#tuandui{
+    background: url("../images/news.jpg")
+}
+#tuandui .menu{
+    width: 573px;
+    height: 48px;
+    margin: 150px auto;
+
+}
+#tuandui .menu p{
+  width: 112px;
+  height: 30px;
+  border: solid 1px #ccc;
+  border-radius: 15px;
+  float: left;
+  text-align: center;
+  line-height: 30px;
+  color: #FFF;
+  margin-left: 60px
+}
+#tuandui .menu p:hover{
+    background: rgb(51, 236, 255);
+    border: solid 1px transparent;
+}
+#tuandui .show{
+    width: 933px;
+    height: 378px;
+  
+    margin:30px auto;
+}
+#tuandui .show .active{
+    width: 508px;
+    height: 100%;
+    background: rgb(15, 104, 111);
+   
+}
+#tuandui .show div{
+    width: 105px;
+    height: 100%;
+    background: rgb(23, 159, 171);
+    float: left;
+    border-right: solid 1px #444;
+}
+#tuandui .show h3{
+   font-size: 28px;
+   font-weight: normal;
+   color: #444;
+   margin-top: 100px;
+   margin-left: 60px;
+}
+#tuandui .show span{
+    margin-top: 100px;
+    margin-left: 55px;
+    color: #444;
+}
+#tuandui .show p{
+     margin-top: 30px;
+    background: rgb(27, 172, 183);
+   padding: 20px 20px;
+   color: #fff;
+   font-size: 14px;
+}
